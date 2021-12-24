@@ -187,4 +187,4 @@ def build_page():
                 earthquake_horizon = '',
                 current_value=0,
                 days_out_to_predict=days_out_to_predict)
-app.run(debug=True)
+app.run(debug=True, port´80)
