@@ -18,7 +18,7 @@
       /* Always set the map height explicitly to define the size of the div
        * element that contains the map. */
       #map {
-        height: 80%;
+        height: 75%;
         width: 1200px;
       }
       /* Optional: Makes the sample page fill the window. */
@@ -53,9 +53,9 @@
   </head>
 
   <body>
-        <table border=0 cellpadding="1" style="width: 1200px; background-color:black;">
+        <table border=0 cellpadding="1" style="width: 1200px; background-color:white;">
             <tr>
-              <td><h1><p style="text-align:center"><font color="red">Earthquake Forecaster</font></p></h1></td>
+              <td><h3><p style="text-align:left"><font color="red">Earthquake Alert</font></p></h1> <b></b><p <h5><b>Disclaimer</b>: App outcome doesnot guarantee a 100% occurance in predictions,  </p></h5></h5></td>
             </tr>
         </table>
 
@@ -108,14 +108,15 @@
       }
     </script>
 
-        <table border=1 cellpadding="1" style="width: 1200px; background-color:blue;">
+        <table border=1 cellpadding="1" style="width: 1200px; background-color:white;">
             <tr>
                 <td><p style="text-align:center">
                   <form id='submit_params' method="POST" action="{{ url_for('build_page') }}">
                     <div class="slidecontainer" style='width: 100%;'>
                     <label><font color="black">Move White bottom horizontally to select future date: <span id="label_slider_value">{{date_horizon}}</span></font></label><BR>
-                    <input type="range"min="0" max="5" value="{{current_value}}" name="slider_date_horizon" 
+                    <input type="range"min="0" max="5" value="{{current_value}}" name="slider_date_horizon"  
                       id="slider_date_horizon" step="1" style='width: 100%;'>
+                      
                   </div>
                 </form>
              </td>
