@@ -5,4 +5,4 @@ Changes in global climate change have given rise to subsequent natural crises, t
 # How to install requirements and run app
 
 First you install pip, after successfully installing pip we use pip to install all python libraries listed in the requirements file 
-Lastly you 
+Lastly you run the main.py file
