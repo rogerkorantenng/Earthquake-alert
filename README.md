@@ -8,7 +8,9 @@ Before running the main.py file its required of you to install the all python li
 To install the python libraries, you first need to install pip, pip is a standard package manager for python
 
 To install pip on windows visit https://www.w3schools.com/python/python_pip.asp 
+
 To install pip on linux vist https://linuxize.com/post/how-to-install-pip-on-ubuntu-18.04/
+
 To install pip on mac visit https://phoenixnap.com/kb/install-pip-mac
 
 After successfully installing pip, we can now use pip to install libraries in the requirements.txt by running the below command in our terminal
