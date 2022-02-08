@@ -2,6 +2,10 @@
 
 Changes in global climate change have given rise to subsequent natural crises, this has caused a lot of damage to humans and property. in this project, I decided to build a machine learning model trained on previous earth-quake occurrences to predict future occurrences in the next 5 days
 
+This project contains a folder and two files namely(requirements.txt and main.py). The folder cantains the template index.html
+
+The main.py conatains the actual code and the requirements.txt contains a list of all python libraries to be installed
+
 # How to install requirements and run app
 
 Before running the main.py file its required of you to install all python libraries listed in the requirement.txt file.
