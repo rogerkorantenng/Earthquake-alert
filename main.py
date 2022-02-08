@@ -12,12 +12,12 @@ import numpy as np
 import xgboost as xgb
 
 
-# global variables
+# Variables(Global)
 earthquake_live = None
 days_out_to_predict = 5
 
 
-#app = Flask(__name__)
+
 
 def prepare_earthquake_data_and_model(days_out_to_predict = 5, max_depth=3, eta=0.1):
 
@@ -49,7 +49,7 @@ def prepare_earthquake_data_and_model(days_out_to_predict = 5, max_depth=3, eta=
     df = df[['date', 'depth', 'mag', 'place']]
     df = pd.merge(left=df, right=df_coords, how='inner', on=['place'])
 
-    # loop through each zone and apply MA
+    # Apply the machine learning algorithm(XGBoost) to each loop
     eq_data = []
     df_live = []
     for symbol in list(set(df['place'])):
