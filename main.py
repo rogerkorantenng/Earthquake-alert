@@ -20,15 +20,15 @@ days_out_to_predict = 5
 #app = Flask(__name__)
 
 def prepare_earthquake_data_and_model(days_out_to_predict = 5, max_depth=3, eta=0.1):
-    '''
-    Desccription : From extraction to model preparation. This function takes in how many days to predict or rolling window
-                    period, max_depth for XGboost and learning rate. I extract data directly from https://earthquake.usgs.gov/
-                    instead of loading from existing database since we want real time data that is updated every minute.
-    
-    Arguments : int (days_to_predict rolling window), int (maximum depth hyperparameter for xgboost), float (learning rate of alogrithm)
 
-    Return : Pandas Dataframe (Prediction dataframe with live/ future NaN values in outcome magnitutde of quake that has to be predicted)
-    '''
+    #Desccription : From extraction to model preparation. This function takes in how many days to predict or rolling window
+# period, max_depth for XGboost and learning rate. I extract data directly from https://earthquake.usgs.gov/
+# instead of loading from existing database since we want real time data that is updated every minute.
+    
+#Arguments : int (days_to_predict rolling window), int (maximum depth hyperparameter for xgboost), float (learning rate of alogrithm)
+
+#Return : Pandas Dataframe (Prediction dataframe with live/ future NaN values in outcome magnitutde of quake that has to be predicted)
+    
     # get latest data from USGS servers
     df = pd.read_csv('https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_month.csv')
     df = df.sort_values('time', ascending=True)
@@ -135,16 +135,16 @@ def prepare_earthquake_data_and_model(days_out_to_predict = 5, max_depth=3, eta=
     return(df_live)
 
 def get_earth_quake_estimates(desired_date, df_live):
-    '''
-    Description : gets desired date to predict earthquake and live prediction dataframe with NaN values as outcome magnitude 
-                  probablity that has to be predicted. The function also deals with converting to google maps api format 
-                  of location co-ordinates to mark it on the map.
 
-    Arguments : DateTime object (desired_date to predict), Pandas DataFrame (dataframe of prediction with NaN values as outcome)
+# Description : gets desired date to predict earthquake and live prediction dataframe with NaN values as outcome magnitude 
+#probablity that has to be predicted. The function also deals with converting to google maps api format 
+#of location co-ordinates to mark it on the map.
 
-    Return : string (Google maps api format location coordinates)
+# Arguments : DateTime object (desired_date to predict), Pandas DataFrame (dataframe of prediction with NaN values as outcome)
 
-    '''
+#Return : string (Google maps api format location coordinates)
+
+   
     from datetime import datetime
     live_set_tmp = df_live[df_live['date'] == desired_date]
 
