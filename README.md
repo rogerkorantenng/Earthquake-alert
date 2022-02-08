@@ -4,7 +4,7 @@ Changes in global climate change have given rise to subsequent natural crises, t
 
 # How to install requirements and run app
 
-Before running the main.py file its required of you to install the all python libraries listed in the requirement.txt file.
+Before running the main.py file its required of you to install all python libraries listed in the requirement.txt file.
 To install the python libraries, you first need to install pip, pip is a standard package manager for python
 
 To install pip on windows visit https://www.w3schools.com/python/python_pip.asp 
