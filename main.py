@@ -21,7 +21,7 @@ days_out_to_predict = 5
 
 def prepare_earthquake_data_and_model(days_out_to_predict = 5, max_depth=3, eta=0.1):
 
-    #Desccription : From extraction to model preparation. This function takes in how many days to predict or rolling window
+#Desccription : From extraction to model preparation. This function takes in how many days to predict or rolling window
 # period, max_depth for XGboost and learning rate. I extract data directly from https://earthquake.usgs.gov/
 # instead of loading from existing database since we want real time data that is updated every minute.
     
