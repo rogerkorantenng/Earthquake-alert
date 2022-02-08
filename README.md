@@ -16,3 +16,11 @@ To install pip on mac visit https://phoenixnap.com/kb/install-pip-mac
 After successfully installing pip, we can now use pip to install libraries in the requirements.txt by running the below command in our terminal
 
 pip install -r requirements.txt
+
+After successfully installing all python libraries through pip, you can now run the application
+
+# How to run/start app
+
+Open terminal and navigate to the folder or path where the files are kept and type the code below
+
+python3 main.py, this opens your web browser on localhost and port 8080
