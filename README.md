@@ -34,3 +34,6 @@ In the case you rceieve an error OSError: [Errno 98] Address already in use, cha
 # Production Use
 
 For production use only add localhost=0.0.0.0 to the last line
+
+# Testing
+The app was tested on a Linux Kodachi Secure OS
