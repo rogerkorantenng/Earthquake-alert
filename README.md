@@ -4,7 +4,11 @@ Changes in global climate change have given rise to subsequent natural crises, t
 
 This project contains a folder and two files namely(requirements.txt and main.py). The folder cantains the template index.html
 
-The main.py conatains the actual code and the requirements.txt contains a list of all python libraries to be installed
+The index.html file serves as the template for the app and is rendered to the flask app through Jinja2
+
+The main.py conatains the actual code 
+
+The requirements.txt contains a list of all python libraries to be installed
 
 # How to install requirements and run app
 
