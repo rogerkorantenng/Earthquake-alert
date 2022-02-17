@@ -23,7 +23,7 @@ To install pip on mac visit https://phoenixnap.com/kb/install-pip-mac
 
 After successfully installing pip, we can now use pip to install libraries in the requirements.txt by running the below command in our terminal
 
-pip install -r requirements.txt or pip3 install -r requirements.txt (for python3*) for root use add sudo
+sudo pip3 install -r requirements.txt 
 
 After successfully installing all python libraries through pip, you can now run the application
 
@@ -31,7 +31,7 @@ After successfully installing all python libraries through pip, you can now run 
 
 Open terminal and navigate to the folder or path where the files are kept and type the code below
 
-python3 main.py or sudo python3 main.py, this opens your web browser on localhost and port 90. 
+sudo python3 main.py, this opens your web browser on localhost and port 90. 
 
 In the case you rceieve an error OSError: [Errno 98] Address already in use, change the port in the last line of the code to your desired port
 
