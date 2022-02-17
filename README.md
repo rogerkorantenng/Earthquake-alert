@@ -41,3 +41,7 @@ For production use only add localhost=0.0.0.0 to the last line
 
 # Testing
 The app was tested on a Linux Kodachi Secure OS and Linux Mint
+
+# Access Live Site Via
+
+http://40.77.111.98:5000
