@@ -23,7 +23,7 @@ To install pip on mac visit https://phoenixnap.com/kb/install-pip-mac
 
 After successfully installing pip, we can now use pip to install libraries in the requirements.txt by running the below command in our terminal
 
-pip install -r requirements.txt
+pip install -r requirements.txt or pip3 install -r requirements.txt (for python3*) for root use add sudo
 
 After successfully installing all python libraries through pip, you can now run the application
 
@@ -40,4 +40,4 @@ In the case you rceieve an error OSError: [Errno 98] Address already in use, cha
 For production use only add localhost=0.0.0.0 to the last line
 
 # Testing
-The app was tested on a Linux Kodachi Secure OS
+The app was tested on a Linux Kodachi Secure OS and Linux Mint
