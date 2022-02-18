@@ -44,4 +44,4 @@ The app was tested on a Linux Kodachi Secure OS and Linux Mint
 
 # Access Live Site Via
 
-http://40.77.111.98:5000
+http://52.170.142.252
