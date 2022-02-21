@@ -44,4 +44,8 @@ The app was tested on a Linux Kodachi Secure OS and Linux Mint
 
 # Access Live Site Via
 
-http://52.170.142.252
+http://20.121.188.185
+
+or 
+
+http://aws-disaster-response.eastus.cloudapp.azure.com
