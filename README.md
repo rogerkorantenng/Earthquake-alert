@@ -49,3 +49,9 @@ http://20.121.188.185
 or 
 
 http://aws-disaster-response.eastus.cloudapp.azure.com
+
+# Enquiries
+
+Email: rogerkorantenng@gmail.com
+
+Tel: +233 54 773 8808
