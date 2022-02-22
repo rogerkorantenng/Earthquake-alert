@@ -10,6 +10,8 @@ The main.py conatains the actual code
 
 The requirements.txt contains a list of all python libraries to be installed
 
+The model folder contains the jupyter notebook file which was saved from Sagemaker studio's after training
+
 # How to install requirements and run app
 
 Before running the main.py file its required of you to install all python libraries listed in the requirement.txt file.
