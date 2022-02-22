@@ -31,7 +31,7 @@ After successfully installing all python libraries through pip, you can now run 
 
 Open terminal and navigate to the folder or path where the files are kept and type the code below
 
-sudo python3 main.py, this opens your web browser on localhost and port 90. 
+sudo python3 main.py, this opens your web browser on localhost and port 88. 
 
 In the case you rceieve an error OSError: [Errno 98] Address already in use, change the port in the last line of the code to your desired port
 
