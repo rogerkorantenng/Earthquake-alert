@@ -194,5 +194,5 @@ def build_page():
                 earthquake_horizon = '',
                 current_value=0,
                 days_out_to_predict=days_out_to_predict)
-#set debug mode true and run on port 88, for production purposes set localhost=0.0.0.0
+#set debug mode true and run on port 88, for production purposes set host='0.0.0.0'
 app.run(debug=True, port=88)
